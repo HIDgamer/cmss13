@@ -52,6 +52,12 @@
 	attack_sound = 'sound/weapons/synthpunch1.ogg'
 	damage = 35
 
+/datum/unarmed_attack/claws/synthetic
+	attack_verb = list("scratch", "claw")
+	damage = 35
+	sharp = TRUE
+	edge = TRUE
+
 /datum/unarmed_attack/claws
 	attack_verb = list("scratch", "claw")
 	attack_sound = 'sound/weapons/slice.ogg'
